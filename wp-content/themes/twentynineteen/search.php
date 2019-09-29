@@ -18,6 +18,19 @@ get_header();
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
+
+
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+				<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148917817-1"></script>
+				<script>
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+
+				gtag('config', 'UA-148917817-1');
+				</script>
+
+
 				<h1 class="page-title">
 					<?php _e( 'Search results for:', 'twentynineteen' ); ?>
 				</h1>
