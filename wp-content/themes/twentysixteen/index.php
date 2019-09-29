@@ -23,7 +23,7 @@ get_header(); ?>
 
 			<?php if ( is_home() && ! is_front_page() ) : ?>
 				<header>
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+					
 
 					<!-- Global site tag (gtag.js) - Google Analytics -->
 					<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148917817-1"></script>
@@ -35,6 +35,7 @@ get_header(); ?>
 					gtag('config', 'UA-148917817-1');
 					</script>
 
+					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
 				</header>
 			<?php endif; ?>
 
